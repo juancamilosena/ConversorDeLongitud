@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese metros"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Km"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnCm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cm"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnMm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mm"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+</LinearLayout>
+
